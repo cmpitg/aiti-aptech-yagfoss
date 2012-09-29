@@ -1,0 +1,221 @@
+!!!
+%html.fade.nonumbers{:lang => "en-US"}
+  %head
+    %title Yet another guide to FOSS
+    %meta{:charset => "UTF-8"}
+      %meta{:content => "width=1274, user-scalable=no", :name => "viewport"}
+        %link{:href => "themes/mozilla/styles/style.css", :rel => "stylesheet"}
+        %style{:type => "text/css"}
+          = "#imgcmpitg { top: 50px; }"
+
+  %body.list
+    %header.caption
+      %h1 Yet another guide to FOSS
+      %p.footer
+        Nguyễn Hà Dương,
+        %a{:href => "https://twitter.com/cmpitg"} @cmpitg,      
+        %a{:href => "mailto:cmpitg@gmail.com"} cmpitg [at] gmail dot com
+
+    #cover.slide
+      %div
+        %section
+          %header
+            %h2 Yet another guide to FOSS
+          %img.middle{:alt => "Icons of B2G, Firefox OS and Mozilla Apps", :src => "pictures/introicons.png"}
+            %footer.byline
+              by Nguyễn Hà Dương
+              %br AiTi-Aptech @ Hanoi - 2012/09/29
+
+    #somelinks.slide
+      %div
+        %section
+          %header
+            %h2 Some links
+          %ul
+            %li
+              This presentation:
+              %br
+                %a{:href => 'https://github.com/CMPITG/aiti-aptech-yagfoss'} https://github.com/CMPITG/aiti-aptech-yagfoss
+                %br or
+                %a{:href => 'http://goo.gl/1ylfR'} http://goo.gl/1ylfR
+            %li
+              Contributing to this talk -
+              %strong real-time!
+              %br
+                %a{:href => 'http://goo.gl/XhtOZ'} http://goo.gl/XhtOZ
+
+    #intro.slide
+      %div
+        %section
+          %header
+            %h2 About Me
+            %img#imgcmpitg{:src => "pictures/cmpitg.jpg", :class => "right", :alt => "cmpitg"}
+          %ul
+            %li Nguyễn Hà Dương (@cmpitg)
+            %li
+              Certified Mozillian:
+              %a{:href => 'https://mozillians.org/en-US/cmpitg'} cmpitg
+            %li
+              %a{:href => 'https://fedoraproject.org/wiki/User:Cmpitg'} Fedora Ambassador
+            %li
+              Member of
+              %a{:href => 'http://khonggiancongdong.org'} Community Space,
+              %a{:href => 'http://hanoicodingdojo.github.com/'} Hanoi Coding Dojo, ...
+          %footer.notes
+            Be brief, slides about Community Space comes later, stop to talk a bit about Mozilla, Fedora, and Hanoi Coding Dojo
+
+    #agenda.slide
+      %div
+        %section
+          %header
+            %h2 Agenda
+          %ul
+            %li Why this talk?  Why BoF?
+            %li Show time!
+            %li Another dummy guide to FOSS
+            %li Current active FOSS groups/communities in Hanoi
+            %li Q&A
+          %footer.notes
+            FOSS news: Steam coming to Linux, Adroid open source, Humble Indie Bundle, ...
+
+    #whythistalk.slide
+      %div
+        %section
+          %header
+            %h2 Why this talk?
+          %img.middle{:alt => "Super Bird", :width => "350px", :src => "pictures/superbird.jpg"}
+          %small.credits
+            %a{:href => "http://sphotos-a.xx.fbcdn.net/hphotos-ash4/c0.20.403.403/p403x403/292944_409981539064327_1506020743_n.jpg"} Photo by from Facebook
+          %footer.notes
+            I hate uninteractive sessions, more interactive more fun.  RSI.  Why this messy, unstructured talk?  Explain the BoF (birds of a feather style).  Remind people of the links.  Talk a bit about making special talks for AiTi Aptech & the message.
+
+    #stopme.slide.shout
+      %div
+        %section
+          %header
+            %h2 Interrupt me if you want
+
+    #showtime.slide
+      %div
+        %section
+          %header
+            %h2 Show time!
+          %ul
+            %li
+              Mozilla Nightly & WebGL technology:
+              %a{:href => 'https://developer.mozilla.org/en-US/demos/detail/bananabread'} BananaBread
+            %li
+              Simple chat server with Node.js
+          %footer.notes
+            Explain a bit about the technologies: WebGL and Node.js.  Be brief about their history.  Then, do the demos.
+
+    #showtimelinks.slide
+      %div
+        %section
+          %header
+            %h2 Show time!
+          %ul
+            %li
+              BananaBread:
+              %a{:href => 'https://developer.mozilla.org/en-US/demos/detail/bananabread'} https://developer.mozilla.org/en-US/demos/detail/bananabread
+            %li
+              Demos on MDN:
+              %a{:href => 'https://developer.mozilla.org/en-US/demos/'} https://developer.mozilla.org/en-US/demos/
+            %li
+              Engine and libs:
+              %a{:href => "http://goo.gl/XHssq"} http://goo.gl/XHssq
+            %li
+              Learning WebGL:
+              %a{:href => "http://learningwebgl.com/blog/"} http://learningwebgl.com/blog/
+            %li
+              Node.js homepage:
+              %a{:href => "http://nodejs.org/"} http://nodejs.org/
+            %li
+              Node.js introduction:
+              %a{:href => "https://speakerdeck.com/u/cmpitg/p/node-dot-js-introduction"} https://speakerdeck.com/u/cmpitg/p/node-dot-js-introduction
+          %footer.notes
+            Just give the links related to the talk
+
+    #dummyguide.slide
+      %div
+        %section
+          %header
+            %h2 Another dummy guide to FOSS
+          %ul
+            %li FOSS = Free and Open Source Software
+            %li NOT just about software
+            %li Openness & freedom in technology
+            %li
+              Sharing spirit
+              %ul
+                %li
+                  Foo Camp
+                %li
+                  BarCamp
+                %li
+                  Software Freedom Day
+                %li
+                  FOSS groups
+
+    #dummyguide2.slide
+      %div
+        %section
+          %header
+            %h2 Another dummy guide to FOSS
+          %ul
+            %li Empowerment
+            %li Having choice
+            %li Culture
+            %li Commitment & voluntary
+            %li It's all about VALUE and FUN!
+          %footer.notes
+            FOSS has to have community, talk a bit about the ecosystem.
+
+    #communities.slide
+      %div
+        %section
+          %header
+            %h2 Current active FOSS groups/communities in Hanoi
+          %ul
+            %li
+              Community Space:
+              %a{:href => "http://khonggiancongdong.org/"} http://khonggiancongdong.org/
+            %li
+              VFOSSA:
+              %a{:href => "http://vfossa.vn/"} http://vfossa.vn/
+            %li
+              Hanoi Coding Dojo:
+              %a{:href => "http://hanoicodingdojo.github.com/"} http://hanoicodingdojo.github.com/
+            %li
+              Mozilla-VN:
+              %a{:href => "https://www.facebook.com/groups/mozvn/"} https://www.facebook.com/groups/mozvn/
+            %li
+              VietLUG:
+              %a{:href => "https://www.facebook.com/groups/vietlug/"} https://www.facebook.com/groups/vietlug/
+            %li
+              Ubuntu-VN
+              %a{:href => "https://www.facebook.com/groups/foss.vn/"} https://www.facebook.com/groups/foss.vn/
+          %footer.notes
+            Briefly introduce the groups/communities, their purposes and their current activities
+
+    #qa.slide
+      %div
+        %section
+          %header
+            %h2 Q&A
+          %ul
+            %li Programming
+            %li Technology
+            %li Culture & style & community
+            %li FOSS in commercial
+            %li Others?
+
+    #thanks.slide.shout
+      %div
+        %section
+          %header
+            %h2 Thank you for your attention!
+
+    -# .progress
+    -#   %div
+    %script{:src => "scripts/script.js"}
